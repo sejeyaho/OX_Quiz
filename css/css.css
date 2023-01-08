@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+  background: url(../img/landscape-1844226_1280.png) no-repeat center;
+  background-size: cover;
+}
+
+html, body {
+	height: 100%;
+}
+
+#container {
+	width: 600px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 80px;
+	box-sizing: border-box;
+}
+
+.number {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.label {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.problem {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.problem_img {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.answer {
+	text-align: center;
+}
+
+.button.o {
+	width: 130px;
+	height: 45px;
+	color: #ffffff;
+	background: #81ca77;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 25px;
+	font-size: 20px;
+}
+
+.button.o:hover {
+	background: #67b64d;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button.o:active {
+	background: #67b64d;
+	color: #ffffff;
+}
+
+.button.o:focus {
+	background-color: #67b64d;
+	outline:0;
+}
+
+.button.x {
+	width: 130px;
+	height: 45px;
+	color: #ffffff;
+	background: #f3a1a5;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+.button.x:hover {
+	background: #f17686;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button.x:active {
+	background: #f17686;
+	color: #ffffff;
+}
+
+.button.x:focus {
+	background-color: #f17686;
+	outline:0;
+}
+
+.button.res {
+	width: 130px;
+	height: 45px;
+	color: #ffffff;
+	background: #81ca77;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 25px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.button.res:hover {
+	background: #67b64d;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button.res:active {
+	background: #67b64d;
+	color: #ffffff;
+}
+
+.button.res:focus {
+	background-color: #67b64d;
+	outline:0;
+}
+
+.button.restart {
+	width: 130px;
+	height: 45px;
+	color: #ffffff;
+	background: #f3a1a5;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 25px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.button.restart:hover {
+	background: #f17686;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button.restart:active {
+	background: #f17686;
+	color: #ffffff;
+}
+
+.button.restart:focus {
+	background-color: #f17686;
+	outline:0;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.logo:hover {
+	opacity: 0.7;
+}

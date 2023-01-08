@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Rubik+Bubbles&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: url(../img/landscape-1844226_1280.png) no-repeat center;
+  background-size: cover;
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+
+html, body {
+	height: 100%;
+}
+
+#container {
+  width: 600px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 80px;
+	box-sizing: border-box;
+}
+
+.logo {
+  margin-bottom: 180px;
+  text-align: center;
+}
+
+.html {
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: 'Rubik Bubbles', cursive;
+}
+
+.html a:hover {
+  color: rgb(199, 146, 212);
+}
+
+.css {
+  text-align: center;
+  font-family: 'Rubik Bubbles', cursive;
+  margin-bottom: 90px;
+}
+
+.css a:hover {
+  color: rgb(172, 115, 187);
+}
+
+.answer {
+  font-family: 'Jua', sans-serif;
+  text-align: center;
+}
+
+.answer a:hover {
+  color: rgb(172, 115, 187);
+}
+
+.logo:hover {
+	opacity: 0.7;
+}
